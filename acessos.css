@@ -1,0 +1,2 @@
+/* Compatibilidade com o módulo de acervo restrito. */
+.acesso-card .hint { display: inline-block; margin-top: 8px; }

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Laboratório CBERS-4A: classificação de cobertura do solo em cinco classes, códigos, amostras e experimentos.">
+  <title>Laboratório CBERS-4A | Ingrid</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="acessos.css">
+  <script defer src="dados.js"></script>
+  <script defer src="app.js"></script>
+  <script defer src="acessos.js"></script>
+</head>
+<body>
+  <header class="header"><div class="nav-wrap">
+    <a class="brand" href="#inicio"><span class="logo">✧</span><span id="marca">Laboratório CBERS-4A</span></a>
+    <nav class="nav" aria-label="Navegação principal">
+      <a href="#codigos">Códigos</a><a href="#amostras">Amostras</a>
+      <a href="#acervo-restrito">Acervo restrito</a><a href="#experimentos">Experimentos</a><a href="#diario">Recados</a>
+    </nav>
+  </div></header>
+  <main>
+    <div class="hero" id="inicio"><div class="hero-inner"><div class="orbs"></div><div class="kicker">PESQUISA • SENSORIAMENTO REMOTO</div><h1 id="titulo">Biblioteca de códigos, amostras e experimentos</h1><p id="subtitulo">Registro acadêmico dos procedimentos, datasets e testes com imagens CBERS-4A.</p><span class="hero-tag" id="autoria">Portfólio acadêmico</span></div></div>
+    <div class="container">
+      <div class="stats">
+        <div class="stat"><b id="stat-classes">—</b><span>Classes de estudo</span></div>
+        <div class="stat"><b id="stat-codigos">—</b><span>Notebooks cadastrados</span></div>
+        <div class="stat"><b id="stat-exps">—</b><span>Experimentos registrados</span></div>
+        <div class="stat"><b id="stat-amostras">—</b><span>Polígonos catalogados</span></div>
+      </div>
+      <section id="codigos"><div class="section-head"><div><div class="eyebrow">01 / Reprodutibilidade</div><h2>Biblioteca de códigos</h2><p class="intro">Notebooks do Google Colab organizados por etapa. Os botões ficam disponíveis quando os links forem cadastrados.</p></div></div><div class="grid" id="lista-codigos"></div></section>
+      <section id="amostras"><div class="section-head"><div><div class="eyebrow">02 / Dados e anotações</div><h2>Banco de amostras</h2><p class="intro" id="amostras-descricao">Catálogo das classes de cobertura do solo.</p></div></div><div class="grid" id="lista-amostras"></div></section>
+      <section id="experimentos"><div class="section-head"><div><div class="eyebrow">03 / Avaliação</div><h2>Banco de testes e experimentos</h2><p class="intro">Experimentos, divisão dos dados, métricas, resultados e limitações metodológicas.</p></div></div><div class="grid" id="lista-experimentos"></div></section>
+      <section id="acervo-restrito"><div class="section-head"><div><div class="eyebrow">04 / Controle de acesso</div><h2>Acervo de pesquisa — acesso restrito</h2><p class="intro">Os arquivos integrais permanecem no Google Drive; a visualização depende da autorização da conta.</p></div></div><div class="grid" id="lista-acessos"><div class="empty">Carregando acessos…</div></div></section>
+      <section id="diario"><div class="section-head"><div><div class="eyebrow">05 / Orientação acadêmica</div><h2>Recados e anotações</h2></div><a id="novo-recado" class="btn" href="#" target="_blank" rel="noopener noreferrer">✎ Deixar recado</a></div><div id="lista-diario"></div></section>
+    </div>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><span id="rodape">CBERS-4A · Pesquisa acadêmica</span><span>Documentação e acompanhamento científico · <a id="link-repo" href="#" target="_blank" rel="noopener noreferrer">Repositório GitHub</a></span></div></footer>
+</body>
+</html>
